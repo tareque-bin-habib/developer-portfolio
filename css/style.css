@@ -62,6 +62,10 @@ section {
     background-position: left;
 }
 
+.exp-head {
+    text-align: center;
+}
+
 #web-dev {
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
@@ -72,4 +76,8 @@ section {
     border-left: 7px solid;
     border-image: linear-gradient(tomato, orange);
     border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
