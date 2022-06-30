@@ -11,8 +11,11 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
+}
+
+section {
     margin-bottom: 100px;
 }
 
@@ -27,7 +30,7 @@ section {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, red);
+    background-image: linear-gradient(tomato, orange);
     color: #fff;
     font-weight: 400;
     padding: 10px 40px;
@@ -43,4 +46,30 @@ section {
     background-image: url(../Photo/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exp-item {
+    width: 45%;
+    margin-left: 35px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+}
+
+.experiences {
+    background-image: url(../Photo/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#baby-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
 }
